@@ -1,0 +1,177 @@
+.properties{
+    width: 100%;
+    margin: 80px 0;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.propertiesWrapper{
+    width: 50%;
+    height: 100%;
+    /* background-color:brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.propertiesFilter{
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filterIcon{
+    padding: 3px;
+    color: gray;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.filterName{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.propertiesCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propertiesCard{
+    width: 100%;
+    height: 250px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16); 
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cardLeft{
+    flex: 4;
+}
+
+.cardImg{
+    /* margin: 0 10px; */
+    width: 90%;
+    max-height: 160px;
+    object-fit: cover;
+}
+
+
+.cardRight{
+    flex: 8;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardRightTop{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.starImg{
+    color: red;
+    font-size: 15px !important;
+    margin-right:10px ;
+}
+
+.interestedCountTab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favouriteIcon{
+    color: red;
+    cursor: pointer;
+}
+
+.interestCount{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.cardRightCenter{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.propertyName{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.propertyAddress{
+    font-size: 13px;
+    color: #6f6f6f;
+}
+
+.genderImg{
+    width: 40px !important;
+}
+
+
+
+.cardRightBottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.moneyRequired{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.timeRequired{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+.viewButtonTab{
+    /* width: 40%; */
+    /* background-color: #6f6f6f; */
+    display: flex;
+    align-items: center;
+}
+
+.viewButton{
+    /* width: 100%; */
+    width: 140px;
+    height: 35px;
+    color: white;
+    background-color: #4dc7bc;
+    border: 1px #4dc7bc;
+    font-size: 20px;
+    font-weight: 500;
+}

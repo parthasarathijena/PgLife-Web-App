@@ -1,0 +1,21 @@
+.navbar{
+    height: 35.5px;
+    display: flex;
+    align-items: center;
+    background-color: #e5e3e8;
+}
+
+.navbarWrapper{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navName{
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6c757d;
+    cursor: pointer;
+}

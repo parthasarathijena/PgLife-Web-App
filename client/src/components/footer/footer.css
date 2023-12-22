@@ -1,0 +1,29 @@
+.footer{
+    height:119px;
+    background-color: #333333;
+    display: flex;
+}
+
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+.footerTop{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footerNav{
+    cursor: pointer;
+}
+
+.footerBottom{
+    color: #a9a9a9;
+}

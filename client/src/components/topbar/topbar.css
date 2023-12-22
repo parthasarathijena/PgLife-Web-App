@@ -1,0 +1,79 @@
+.topbar{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* justify-content: space-between; */
+}
+
+.topbarWrapper{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbarLogo{
+    width: 125px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.topbarRight{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.topbarSignup{
+    height: 18px;
+    padding: 1px 20px;
+    border-right: 2px solid #d6d6d678;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topbarLogin{
+    padding: 1px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topbarMaterial{
+    font-size: 24px !important;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.topbarText{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.topbarButton{
+    width: 100%;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color: inherit;
+    background: none;
+}
+.topbarButton:hover{
+    color: #373737;
+}
+

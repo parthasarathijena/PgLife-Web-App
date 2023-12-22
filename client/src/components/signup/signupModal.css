@@ -1,0 +1,92 @@
+
+.signupBox{
+    width: 500px;
+}
+
+
+
+#SignupTitle{
+    color: #373737;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.signupDiv{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    display: flex;
+    align-items: center;
+}
+
+.signupIconDiv{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.signupIcon{
+    color: #495057;
+    width: 100% !important;
+}
+
+.signupInput{
+    width: 90%;
+    height: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0 0.25rem 0.25rem 0;
+    padding-left : 10px ;
+    font-size: 16px;
+    outline: none;
+}
+
+.signupButton{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background-color: #4dc7bc;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.signupButton:hover{
+    color: white;
+    background-color: #39b5aa;
+    border-color: #36aba1;
+}
+
+.loginLink{
+    text-decoration: none;
+    color: #4dc7bc;
+}
+
+.loginLink:hover{
+    color: #30988e;
+    text-decoration: underline;
+}
+
+
+.genderOption{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+}

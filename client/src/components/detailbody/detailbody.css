@@ -1,0 +1,332 @@
+.bodyCarousel{
+    height: 300px;
+}
+
+.carouselImg{
+    height: 300px;
+    background-color: aqua;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detailsWrapper{
+    width: 100%;
+    padding: 0 20px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.cardRight{
+    width: 100%;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardRightTop{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.starImg{
+    color: red;
+    font-size: 20px !important;
+    margin-right:10px ;
+}
+
+.interestedCountTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.favouriteIcon{
+    color: red;
+}
+
+.interestCount{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cardRightCenter{
+    width: 100%;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.propertyName{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.propertyAddress{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.genderImg{
+    width: 40px !important;
+}
+
+.aboutProperty{
+    width: 100%;
+    text-align: left;
+}
+
+.cardRightBottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.moneyRequired{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.timeRequired{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+.viewButtonTab{
+    display: flex;
+    align-items: center;
+}
+
+.viewButton{
+    width: 140px;
+    height: 35px;
+    color: white;
+    background-color: #4dc7bc;
+    border: 1px #4dc7bc;
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+
+.amenities{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.heading{
+    font-size: 36px;
+    margin: 30px 0;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 800px){
+    .amenityContainers{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.amenityContainers{
+    margin-bottom: 100px;
+}
+
+.amenityColoumn{
+    padding: 10px 0;
+}
+
+.coloumnHeading{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.amenityContainer{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.amenityImg{
+    margin-right: 5px;
+}
+
+.aboutPara{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.propertyRating{
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.ratingBody{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.leftRating{
+    width: 40%;
+    height: 160px;
+}
+
+
+.diffRating{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.leftRatingStarImg{
+    color: #66C2BD;
+    font-size: 18px !important;
+    margin-right:2px ;
+}
+
+.ratingIconImg{
+    margin: 0 4px;
+    font-size: 20px !important;
+}
+
+.rightRating{
+    width: 60%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightratingCircle{
+    width: 160px;
+    height: 100%;
+    background-color: #66C2BD;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightmainRating{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.rightRatingStarImg{
+    color: white;
+    font-size: 16px !important;
+    margin-right:2px ;
+}
+
+
+@media screen and (max-width: 800px){
+    .ratingBody{
+        flex-direction: column;
+    }
+    .leftRating{
+        width: 100%;
+    }
+    .diffRating{
+        width: 70%;
+    }
+    .rightRating{
+        width: 100%;
+    }
+}
+
+.propertyReview{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+.reviewCard{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #fcfaf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewImg{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    /* top: 20px; */
+    position: relative;
+    bottom: 50px;
+}
+
+.reviewInner{
+    width: 60%;
+}
+
+.reviewPara{
+    font-size: 16px;
+    margin-bottom: 1rem;
+    color: #777777;
+    text-align: center;
+}
+.quoteImg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.reviewSign{
+    text-align: right;
+    color: #2F2E2E;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 12px;
+}

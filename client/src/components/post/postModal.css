@@ -1,0 +1,138 @@
+.modalBox{
+    height: auto !important;
+}
+
+.postBox{
+    width: 600px;
+}
+
+
+#postTitle{
+    color: #373737;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body{
+    padding: 1rem;
+}
+
+.postForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.postDiv{
+    margin-bottom: 1rem;
+    width: 100%;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postDetailHeading{
+    color: #373737;
+}
+
+.postInput{
+    width: 85%;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    margin-right: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding-left : 10px ;
+    font-size: 16px;
+    outline: none;
+}
+
+.selectInput{
+    margin-left: 20px;
+    margin-right: auto;
+    justify-content: left;
+}
+
+.ratingDiv{
+    margin-right: auto;
+    justify-content: left;
+}
+
+.ratingHeading{
+    margin-bottom: auto;
+}
+
+.differentRating{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 20px;
+    margin-right: auto; */
+    
+}
+
+.insideRating{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+}
+
+.ratingInput{
+    width: auto;
+    margin-left: 10px;
+}
+
+.rentInput{
+    width: auto;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.postButton{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background-color: #4dc7bc;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.postButton:hover{
+    color: white;
+    background-color: #39b5aa;
+    border-color: #36aba1;
+}
+
+.registerLink{
+    text-decoration: none;
+    color: #4dc7bc;
+}
+
+.registerLink:hover{
+    color: #30988e;
+    text-decoration: underline;
+}
+
+
+
+
+.shareImg{
+    width:100px;
+    height:100px;
+}
